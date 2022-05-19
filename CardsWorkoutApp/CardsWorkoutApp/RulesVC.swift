@@ -13,6 +13,8 @@ class RulesVC: UIViewController {
     let rulesLabel = UILabel()
     let exerciseLabel = UILabel()
     
+    //for test
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground

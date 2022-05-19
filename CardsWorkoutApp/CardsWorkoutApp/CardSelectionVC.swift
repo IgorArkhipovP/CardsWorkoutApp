@@ -51,7 +51,7 @@ class CardSelectionVC: UIViewController {
     func configureCardImageView(){
         view.addSubview(cardImageView)
         cardImageView.translatesAutoresizingMaskIntoConstraints = false
-        cardImageView.image = UIImage(named: "AS")
+        cardImageView.image = cards.randomElement()
         
         NSLayoutConstraint.activate([
             cardImageView.widthAnchor.constraint(equalToConstant: 250),
